@@ -1,0 +1,358 @@
+{
+  "_meta": {
+    "site": "https://knxstore.vn",
+    "generated": "2026-06-01",
+    "language": "vi",
+    "usage": "Copy each block into a <script type='application/ld+json'> tag. Replace all PLACEHOLDER values before deploying. Validate at https://search.google.com/test/rich-results"
+  },
+
+  "organization_updated": {
+    "_note": "Replace homepage Organization block with this. Adds sameAs + openingHours + priceRange.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["Organization", "LocalBusiness"],
+          "@id": "https://knxstore.vn/#organization",
+          "name": "KNXStore.vn",
+          "legalName": "Công ty TNHH Tích Hợp Hệ Thống Liên Minh",
+          "url": "https://knxstore.vn",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://knxstore.vn/assets/logo.png",
+            "width": 200,
+            "height": 60
+          },
+          "image": "https://knxstore.vn/assets/logo.png",
+          "description": "Phân phối và tư vấn giải pháp tự động hóa tòa nhà tại Việt Nam: KNX, DALI-2, Casambi, Matter Smarthome, BACnet, Modbus.",
+          "inLanguage": "vi",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "PLACEHOLDER_STREET_ADDRESS",
+            "addressLocality": "PLACEHOLDER_CITY",
+            "addressRegion": "PLACEHOLDER_PROVINCE",
+            "postalCode": "PLACEHOLDER_POSTAL_CODE",
+            "addressCountry": "VN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "PLACEHOLDER_LAT",
+            "longitude": "PLACEHOLDER_LNG"
+          },
+          "telephone": "PLACEHOLDER_PHONE",
+          "email": "PLACEHOLDER_EMAIL",
+          "openingHours": [
+            "Mo-Fr 08:30-17:30",
+            "Sa 08:30-12:00"
+          ],
+          "priceRange": "$$",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "PLACEHOLDER_PHONE",
+              "contactType": "customer service",
+              "contactOption": "TollFree",
+              "areaServed": "VN",
+              "availableLanguage": ["Vietnamese", "English"]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "technical support",
+              "email": "PLACEHOLDER_SUPPORT_EMAIL",
+              "areaServed": "VN",
+              "availableLanguage": ["Vietnamese"]
+            }
+          ],
+          "sameAs": [
+            "PLACEHOLDER_FACEBOOK_URL",
+            "PLACEHOLDER_LINKEDIN_URL",
+            "PLACEHOLDER_YOUTUBE_URL",
+            "PLACEHOLDER_ZALO_OA_URL"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Hệ thống tự động hóa tòa nhà",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Tư vấn và phân phối thiết bị KNX"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Tư vấn và phân phối thiết bị DALI-2"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Giải pháp Casambi Wireless Lighting Control"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Matter Smarthome cho chủ nhà"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "category_page_template": {
+    "_note": "Reusable template for all category/collection pages. Replace PLACEHOLDER values per page.",
+    "_parameters": {
+      "CATEGORY_URL": "Full canonical URL of the category page",
+      "CATEGORY_NAME": "Human-readable category name in Vietnamese",
+      "CATEGORY_DESCRIPTION": "1-2 sentence description of the product collection",
+      "CATEGORY_IMAGE_URL": "OG image or hero image for the category",
+      "BREADCRUMB_ITEMS": "Array of breadcrumb levels (see example below)",
+      "PRODUCT_LIST": "Array of products in this category (see example below)"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "CATEGORY_URL#webpage",
+          "url": "CATEGORY_URL",
+          "name": "CATEGORY_NAME — KNXStore.vn",
+          "description": "CATEGORY_DESCRIPTION",
+          "inLanguage": "vi",
+          "isPartOf": {
+            "@id": "https://knxstore.vn/#website"
+          },
+          "breadcrumb": {
+            "@id": "CATEGORY_URL#breadcrumb"
+          },
+          "publisher": {
+            "@id": "https://knxstore.vn/#organization"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "CATEGORY_IMAGE_URL"
+          },
+          "mainEntity": {
+            "@id": "CATEGORY_URL#itemlist"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "CATEGORY_URL#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Trang chủ",
+              "item": "https://knxstore.vn"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "CATEGORY_NAME",
+              "item": "CATEGORY_URL"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "CATEGORY_URL#itemlist",
+          "name": "CATEGORY_NAME",
+          "description": "CATEGORY_DESCRIPTION",
+          "numberOfItems": "PRODUCT_COUNT_INTEGER",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "url": "PRODUCT_1_URL",
+              "name": "PRODUCT_1_NAME"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "url": "PRODUCT_2_URL",
+              "name": "PRODUCT_2_NAME"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "category_examples": {
+    "_note": "3 concrete examples pre-filled for the known category URLs. Still requires product list population.",
+    "casambi_gateway": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://knxstore.vn/casambi-gateway#webpage",
+          "url": "https://knxstore.vn/casambi-gateway",
+          "name": "Thiết bị Điều khiển Casambi Gateway — KNXStore.vn",
+          "description": "Bộ gateway Casambi chính hãng: kết nối hệ thống chiếu sáng không dây Casambi với Modbus, BACnet, KNX và hệ thống BMS. Phân phối chính thức tại Việt Nam.",
+          "inLanguage": "vi",
+          "isPartOf": {"@id": "https://knxstore.vn/#website"},
+          "publisher": {"@id": "https://knxstore.vn/#organization"},
+          "breadcrumb": {"@id": "https://knxstore.vn/casambi-gateway#breadcrumb"},
+          "mainEntity": {"@id": "https://knxstore.vn/casambi-gateway#itemlist"}
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://knxstore.vn/casambi-gateway#breadcrumb",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://knxstore.vn"},
+            {"@type": "ListItem", "position": 2, "name": "Casambi Gateway", "item": "https://knxstore.vn/casambi-gateway"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://knxstore.vn/casambi-gateway#itemlist",
+          "name": "Casambi Gateway",
+          "description": "Danh sách thiết bị Casambi Gateway chính hãng",
+          "numberOfItems": "PLACEHOLDER_COUNT",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "url": "PLACEHOLDER_PRODUCT_URL", "name": "PLACEHOLDER_PRODUCT_NAME"}
+          ]
+        }
+      ]
+    },
+    "dali_gateway": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://knxstore.vn/dali-gateway#webpage",
+          "url": "https://knxstore.vn/dali-gateway",
+          "name": "Bộ Điều khiển DALI Gateway — KNXStore.vn",
+          "description": "Gateway DALI-2 chính hãng: điều khiển chiếu sáng DALI-2 tích hợp KNX TP, BACnet, Modbus TCP/RTU. Hàng chính hãng, hỗ trợ kỹ thuật tại Việt Nam.",
+          "inLanguage": "vi",
+          "isPartOf": {"@id": "https://knxstore.vn/#website"},
+          "publisher": {"@id": "https://knxstore.vn/#organization"},
+          "breadcrumb": {"@id": "https://knxstore.vn/dali-gateway#breadcrumb"},
+          "mainEntity": {"@id": "https://knxstore.vn/dali-gateway#itemlist"}
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://knxstore.vn/dali-gateway#breadcrumb",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://knxstore.vn"},
+            {"@type": "ListItem", "position": 2, "name": "DALI Gateway", "item": "https://knxstore.vn/dali-gateway"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://knxstore.vn/dali-gateway#itemlist",
+          "name": "DALI Gateway",
+          "description": "Danh sách thiết bị bộ điều khiển DALI chính hãng",
+          "numberOfItems": "PLACEHOLDER_COUNT",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "url": "PLACEHOLDER_PRODUCT_URL", "name": "PLACEHOLDER_PRODUCT_NAME"}
+          ]
+        }
+      ]
+    },
+    "knx_gateway": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://knxstore.vn/bo-dieu-khien-knx-gateway#webpage",
+          "url": "https://knxstore.vn/bo-dieu-khien-knx-gateway",
+          "name": "Bộ Điều khiển KNX Gateway — KNXStore.vn",
+          "description": "KNX gateway chính hãng: kết nối KNX TP với IP, Modbus, BACnet, DALI-2. Thiết bị KNX Association certified, phân phối tại Việt Nam.",
+          "inLanguage": "vi",
+          "isPartOf": {"@id": "https://knxstore.vn/#website"},
+          "publisher": {"@id": "https://knxstore.vn/#organization"},
+          "breadcrumb": {"@id": "https://knxstore.vn/bo-dieu-khien-knx-gateway#breadcrumb"},
+          "mainEntity": {"@id": "https://knxstore.vn/bo-dieu-khien-knx-gateway#itemlist"}
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://knxstore.vn/bo-dieu-khien-knx-gateway#breadcrumb",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://knxstore.vn"},
+            {"@type": "ListItem", "position": 2, "name": "KNX Gateway", "item": "https://knxstore.vn/bo-dieu-khien-knx-gateway"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://knxstore.vn/bo-dieu-khien-knx-gateway#itemlist",
+          "name": "KNX Gateway",
+          "description": "Danh sách thiết bị bộ điều khiển KNX chính hãng",
+          "numberOfItems": "PLACEHOLDER_COUNT",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "url": "PLACEHOLDER_PRODUCT_URL", "name": "PLACEHOLDER_PRODUCT_NAME"}
+          ]
+        }
+      ]
+    }
+  },
+
+  "person_author_template": {
+    "_note": "Add to author bio pages (e.g., /tac-gia/ten-tac-gia). One block per author page.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://knxstore.vn/tac-gia/AUTHOR_SLUG#person",
+      "name": "AUTHOR_FULL_NAME",
+      "givenName": "AUTHOR_GIVEN_NAME",
+      "familyName": "AUTHOR_FAMILY_NAME",
+      "url": "https://knxstore.vn/tac-gia/AUTHOR_SLUG",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://knxstore.vn/assets/authors/AUTHOR_SLUG.jpg",
+        "width": 400,
+        "height": 400
+      },
+      "description": "PLACEHOLDER_SHORT_BIO (1-2 sentences, expertise-focused)",
+      "jobTitle": "PLACEHOLDER_JOB_TITLE",
+      "worksFor": {
+        "@id": "https://knxstore.vn/#organization"
+      },
+      "knowsAbout": [
+        "KNX Building Automation",
+        "DALI-2 Lighting Control",
+        "Casambi Wireless Lighting",
+        "Matter Smarthome",
+        "BACnet",
+        "Modbus"
+      ],
+      "sameAs": [
+        "PLACEHOLDER_LINKEDIN_PROFILE_URL"
+      ]
+    }
+  },
+
+  "website_searchaction": {
+    "_note": "Keep existing WebSite + SearchAction block. No changes needed if already implemented. Shown here for reference.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://knxstore.vn/#website",
+      "url": "https://knxstore.vn",
+      "name": "KNXStore.vn",
+      "description": "Phân phối thiết bị tự động hóa tòa nhà: KNX, DALI-2, Casambi, Matter",
+      "inLanguage": "vi",
+      "publisher": {
+        "@id": "https://knxstore.vn/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://knxstore.vn/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  }
+}

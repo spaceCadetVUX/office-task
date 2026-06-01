@@ -1,0 +1,53 @@
+# KNXStore.vn
+> KNXStore (Công ty CP Tích Hợp Hệ Thống Liên Minh) là nhà phân phối chính hãng thiết bị tự động hóa tòa nhà và nhà thông minh tại Việt Nam. Chuyên KNX (ISO/IEC 14543-3), DALI-2, Casambi, Matter, DMX512, BACnet và Modbus. Phục vụ System Integrator, ME Contractor và chủ đầu tư với 700+ SKU từ 30+ thương hiệu châu Âu. Trụ sở: The Sun Avenue, 28 Mai Chí Thọ, TP.HCM. Hotline: 0918.918.755.
+
+## Giải Pháp Chính
+
+- [KNX — Tự động hóa tòa nhà chuẩn ISO/IEC 14543-3](https://knxstore.vn/solution/knx): Giải pháp bus wired dành cho tòa nhà thương mại và cao cấp. KNX là giao thức mở được 500+ nhà sản xuất toàn cầu hỗ trợ, tiêu chuẩn quốc tế ISO/IEC 14543-3. Ứng dụng: chiếu sáng, HVAC, rèm cửa, an ninh, quản lý năng lượng.
+- [Casambi — Điều khiển chiếu sáng không dây BLE Mesh](https://knxstore.vn/solution/casambi): Nền tảng chiếu sáng không dây BLE mesh, không cần bộ điều khiển trung tâm. Tối đa 250 thiết bị/mạng, bảo mật AES-128 ECDH/ECDSA. Tích hợp DALI-2, 0-10V, Triac, DMX. Phù hợp bán lẻ, khách sạn, văn phòng.
+- [DALI-2 — Điều khiển chiếu sáng số theo chuẩn IEC 62386](https://knxstore.vn/collections/dali): Giao thức điều khiển đèn 2 chiều theo IEC 62386. DALI-2 hỗ trợ device type mở rộng (DT6-DT8), tích hợp cảm biến và emergency lighting. Sử dụng rộng trong công trình thương mại.
+- [Matter Smarthome — Chuẩn kết nối mở cho nhà thông minh](https://knxstore.vn/solution/matter): Giao thức IoT mở được Apple, Google, Amazon, Samsung hỗ trợ. Hoạt động local qua Thread/Wi-Fi, không phụ thuộc cloud. Phù hợp B2C chủ nhà.
+- [BACnet & Modbus — Tích hợp hệ thống tòa nhà](https://knxstore.vn/solution/bacnet-modbus): Gateway và thiết bị hỗ trợ BACnet IP/MSTP và Modbus RTU/TCP để tích hợp HVAC, hệ thống điện, và BMS trong công trình lớn.
+
+## Sản Phẩm Theo Thương Hiệu
+
+- [Casambi](https://knxstore.vn/brands/casambi): Module CBU, driver, cảm biến PIR+ánh sáng, công tắc Xpress, gateway — toàn bộ ecosystem chính hãng từ Casambi Technologies (Helsinki, Phần Lan).
+- [Atios](https://knxstore.vn/brands/atios): Gateway KNX/DALI tích hợp Matter và Apple Home. Bridge giữa hệ thống building automation chuẩn EU với ecosystem smarthome consumer.
+- [MOORGEN](https://knxstore.vn/brands/moorgen): Công tắc điều khiển KNX cao cấp, thiết kế tối giản châu Âu.
+- [IRTEC](https://knxstore.vn/brands/irtec): Cảm biến hiện diện PIR và đa chiều cho KNX và DALI.
+- [SATEL](https://knxstore.vn/brands/satel): Hệ thống báo động và an ninh tích hợp KNX.
+- [Tất cả thương hiệu](https://knxstore.vn/brands): 30+ thương hiệu châu Âu và quốc tế.
+
+## Kiến Thức Kỹ Thuật (Blog)
+
+- [KNX là gì? Kiến trúc và ứng dụng thực tế](https://knxstore.vn/solution/knx): Tổng quan đầy đủ về giao thức KNX TP, KNX IP, cấu trúc bus, ETS software, và case study triển khai tại Việt Nam.
+- [Casambi — Hướng dẫn kỹ thuật đầy đủ](https://knxstore.vn/solution/casambi): Kiến trúc BLE mesh, các loại module (CBU-A2D, CBU-PWM4, DX010), cấu hình scenes/automation, hạn chế kỹ thuật.
+- [Blog kiến thức tự động hóa](https://knxstore.vn/blogs/kien-thuc): 231 bài kỹ thuật sâu về KNX, DALI-2, Casambi, Matter, Thread, BACnet, Modbus — cập nhật hàng tuần.
+- [Matter FAQ — Giải đáp câu hỏi thường gặp](https://knxstore.vn/blogs/kien-thuc/faq-giai-dap-cac-cau-hoi-thuong-gap-ve-tieu-chuan-matter): Tổng hợp 20+ câu hỏi thường gặp về giao thức Matter.
+- [AES-128 CCM và KNX Secure](https://knxstore.vn/blogs/kien-thuc/aes-128-ccm-la-gi-co-che-bao-mat-toi-uu-cho-giao-thuc-knx-ip): Cơ chế mã hóa và xác thực trong KNX IP Secure theo EN 50090-3-3.
+- [Thread — Mạng lưới IoT ổn định cho Smarthome](https://knxstore.vn/blogs/kien-thuc/10-bi-quyet-de-so-huu-mang-thread-on-dinh-muot-ma-cho-smarthome): 10 best practices để xây dựng Thread network ổn định.
+
+## Về KNXStore
+
+- [Trang chủ](https://knxstore.vn): Tổng quan sản phẩm, giải pháp và thông tin công ty.
+- [Tất cả sản phẩm](https://knxstore.vn/collections/all): 700+ SKU thiết bị tự động hóa, chiếu sáng thông minh, smarthome.
+- [Giải pháp](https://knxstore.vn/giai-phap): Giải pháp theo ứng dụng: chiếu sáng, HVAC, an ninh, năng lượng.
+
+## Thông Tin Liên Hệ & Pháp Lý
+
+- Tên công ty: Công ty Cổ Phần Tích Hợp Hệ Thống Liên Minh
+- MST: 0311846236
+- Địa chỉ: The Sun Avenue, 28 Mai Chí Thọ, Phường An Phú, TP. Thủ Đức, TP.HCM, Việt Nam
+- Hotline: 0918.918.755
+- Email: sales@knxstore.vn
+- LinkedIn: https://www.linkedin.com/company/knxstore-vn
+- YouTube: https://www.youtube.com/@KNXStore
+- Facebook: https://www.facebook.com/knxstore.vn
+- Đối tác chính thức: Casambi Technologies, KNX Association Partner
+
+## Thị Trường & Đối Tượng Phục Vụ
+
+- B2B: System Integrator, ME Contractor, BMS Integrator, Electrical Designer
+- B2C: Chủ nhà, Chủ căn hộ cao cấp (Matter Smarthome)
+- Địa bàn: Toàn quốc (chủ yếu TP.HCM và Hà Nội)
+- Hỗ trợ: Tư vấn kỹ thuật, báo giá dự án, cấu hình thiết bị, đào tạo on-site
